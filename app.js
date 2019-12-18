@@ -91,7 +91,6 @@ const win = (userChoice, compChoice, finalScore) => {
 const lose = (userChoice, compChoice, finalScore) => {
 
     computerScore++;
-
     if (finalScore > computerScore) {
         cachedDOM.message.innerHTML = `${compChoice} beats ${userChoice}, computer wins!`;
         cachedDOM.computerScore_span.textContent = computerScore;
